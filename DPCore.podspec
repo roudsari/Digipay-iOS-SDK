@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
     s.public_header_files = 'DPCore.framework/Headers/*.h'
     s.vendored_frameworks = 'DPCore.framework'
     s.xcconfig = { 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' =>  'YES' }
-    s.swift_version = "4.2"
+    s.swift_version = "5.1"
 end
