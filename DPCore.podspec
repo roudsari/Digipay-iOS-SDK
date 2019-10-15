@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.license           = "MIT"
     s.author            = { "Digipay" => "info@mydigipay.com" }
   
-    # s.source       = { :http => "env.DeployURL-swift4.1" }
+    s.source       = { :http => "env.DeployURL-swift4.1" }
     s.source_files = "DPCore.framework/Headers/*.h"
     s.requires_arc = true
     s.public_header_files = 'DPCore.framework/Headers/*.h'
