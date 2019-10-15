@@ -1,0 +1,11 @@
+framework module DPCore {
+  umbrella header "DPCore.h"
+
+  export *
+  module * { export * }
+}
+
+module DPCore.Swift {
+    header "DPCore-Swift.h"
+    requires objc
+}
